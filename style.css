@@ -6,7 +6,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ::selection{
-    background-color: rgba(39, 1, 97, 0.542);
+    background-color: rgba(179, 129, 37, 0.542);
     color: black;
 }
 
