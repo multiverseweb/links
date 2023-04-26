@@ -6,9 +6,15 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ::selection{
-    background-color: rgba(0, 255, 255, 0.542);
+    background-color: rgba(39, 1, 97, 0.542);
     color: black;
 }
+
+img {
+    pointer-events: none;
+  -webkit-touch-callout: none;
+}
+
 .logo{
     height: 55px;
     padding-right: 33%;
