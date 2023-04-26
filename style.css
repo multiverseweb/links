@@ -131,14 +131,14 @@ hr{
         }
         .links a{
             padding: 1%;
-            margin-top: 1%;
+            margin-top: 3%;
             border-radius: 5px;
             padding-bottom: 2%;
-            font-size:25px;
+            font-size:20px;
         }
         body{
             margin-top: 1%;
-            font-size: medium;
+            font-size: large;
         }
         .face{
             max-height: 200px;
