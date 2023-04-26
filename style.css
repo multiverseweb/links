@@ -2,17 +2,33 @@ body{
     margin-top: 4%;
     background-color: black;
     color: white;
-    font-family:monospace;
+    font-size:40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ::selection{
     background-color: rgba(0, 255, 255, 0.542);
     color: black;
 }
 .logo{
-    height: 25px;
-    padding-right: 35%;
-    margin-left: -38%;
+    height: 55px;
+    padding-right: 33%;
+    margin-left: -36%;
 }
+.linkedin{
+    height: 55px;
+    padding-right: 33%;
+    margin-left: -41%;
+}
+.gmail{
+    height: 50px;
+    padding-right: 35%;
+    margin-left: -42%;
+}
+.github{
+        height: 57px;
+        padding-right: 35%;
+        margin-left: -42%;
+    }
 .logo:hover{
     filter: invert(1);
 }
@@ -22,32 +38,22 @@ body{
 .gmail:hover{
     filter: invert(1);
 }
-.gmail{
-    height: 20px;
-    padding-right: 35%;
-    margin-left: -42%;
-}
-.github{
-        height: 27px;
-        padding-right: 35%;
-        margin-left: -42%;
-    }
-
 .horizontal{
     display: flex;
 }
 .name{
     margin-left: 6%;
-    text-align: justify;
+    text-align: left;
     margin-right: 3%;
+    margin-top:5%;
 }
 .face{
-    max-height: 140px;
+    max-height: 350px;
     background-color: rgb(27, 27, 27);
     padding: 1%;
     border-radius: 50%;
     margin-left: 3%;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 .connect{
     text-align: center;
@@ -60,29 +66,29 @@ body{
     margin-left: 5%;
 }
 .links a{
+    font-size:40px;
     color: white;
     text-decoration: none;
-    padding: 3%;
+    padding: 4%;
     background-color: rgba(27, 27, 27, 0.685);
-    margin-top: 3%;
-    border-radius: 5px;
+    margin-top: 4%;
+    border-radius: 9px;
 }
 a:hover{
     transform: scale(1.02);
-    background-color: rgb(111, 111, 111);
-    color: rgb(0, 0, 0);
-    transition-duration: 0.2s;
+    background-color: rgb(34, 34, 34);
+    transition-duration: 0.1s;
 }
 .sign{
     opacity: 0.6;
-    font-family: "Brush Script MT";
+    font-family: Snell Roundhand;
     text-align: center;
     margin-top: 7%;
     margin-bottom: 5%;
 }
 
 hr{
-    width: 50%;
+    width: 70%;
     margin-top: 7%;
     margin-bottom: 5%;
     color: rgb(27, 27, 27);
