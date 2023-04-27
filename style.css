@@ -3,7 +3,7 @@ body{
     background-color: #020010;
     color: white;
     font-size:40px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 ::selection{
     background-color: rgba(46, 65, 121, 0.542);
