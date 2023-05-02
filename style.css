@@ -82,7 +82,7 @@ img {
 }
 a:hover{
     transform: scale(1.02);
-    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34,0.685);
     transition-duration: 0.1s;
 }
 .sign{
