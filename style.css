@@ -193,6 +193,15 @@ hr{
 height:60px;
 }
 
+  .starlink{
+    margin-top: 50%;
+        width: 110%;
+        -ms-transform: rotate(-30deg); /* IE 9 */
+        -webkit-transform: rotate(-30deg); /* Safari */
+        transform: rotate(-30deg); /* Standard syntax */
+        position: absolute;
+        z-index: -1000;
+  }
 
   .iss{
     rotate: 76deg;
