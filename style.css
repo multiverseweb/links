@@ -194,7 +194,8 @@ height:60px;
 }
 
   .starlink{
-    margin-top: 50%;
+    margin-top: 85%;
+      margin-left:-10%;
         width: 110%;
         -ms-transform: rotate(-30deg); /* IE 9 */
         -webkit-transform: rotate(-30deg); /* Safari */
