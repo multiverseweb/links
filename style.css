@@ -192,3 +192,9 @@ hr{
 #sign{
 height:60px;
 }
+
+
+  .iss{
+    rotate: 76deg;
+    filter: invert(1);
+  }
