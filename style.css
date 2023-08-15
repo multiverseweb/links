@@ -18,8 +18,8 @@ img {
 .logo{
     margin-top:2%;
     height: 100px;
-    margin-right: 10%;
-    margin-left: 20.3%;
+    margin-right: 30%;
+    margin-left: 2.3%;
     border-radius: 50%;
     transition:0.7s;
 }
@@ -81,7 +81,7 @@ hr{
         margin-top:4%;
     height: 35px;
     margin-right: 30%;
-    margin-left: 1%;
+    margin-left: 51%;
     border-radius: 50%;
     transition:0.7s;
 }
@@ -167,12 +167,6 @@ hr{
   }
 
 
-
-.logo{
-    height: 55px;
-    padding-right: 33%;
-    margin-left: -36%;
-}
 .linkedin{
     height: 55px;
     padding-right: 33%;
@@ -262,8 +256,8 @@ hr{
         padding-top:7px;
         margin-bottom: -1%;
         height: 35px;
-        padding-right: 31%;
-        margin-left: -41%;
+        padding-right: 0%;
+        margin-left:5%;
     }
     .gmail{
         padding-top:7px;
