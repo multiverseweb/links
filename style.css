@@ -20,7 +20,7 @@ img {
     height: 100px;
     margin-right: 30%;
     margin-left: 2.3%;
-    border-radius: 50%;
+    border-radius: 5%;
     transition:0.7s;
 }
 .logo:hover{
@@ -82,7 +82,7 @@ hr{
     height: 35px;
     margin-right: 30%;
     margin-left: 51%;
-    border-radius: 50%;
+    border-radius: 5%;
     transition:0.7s;
 }
 
