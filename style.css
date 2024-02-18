@@ -7,12 +7,21 @@ body {
     overflow-x: hidden;
     background-color: #0f0f14;
     color: rgba(255, 255, 255, 0.881);
-    font-size: 20px;
+    font-size: 2.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.connect{
+    font-size: 2rem;
+}
+.small{
+    font-size: 1.7rem;
 }
 ::selection{
     background-color: #b57800a3;
     color:#0f0f14;
+}
+#particles-js{
+    height: 100vh;
 }
 .face {
     height: 10vh;
@@ -29,9 +38,6 @@ body {
     word-wrap: break-word;
 }
 
-.small {
-    font-size: 15px;
-}
 
 a {
     text-decoration: none;
@@ -214,4 +220,15 @@ marquee{
     width: 105vw;
     z-index: -1000;
 }
-
+/*
+@media (min-width: 800px){
+    body{
+        font-size: 1.5rem;
+    }
+    .connect{
+        font-size: 1.5rem;
+    }
+    .small{
+        font-size: 1.2rem;
+    }
+}*/
