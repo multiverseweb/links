@@ -27,43 +27,6 @@ img {
     filter: invert(1);
 }
 
-.connect{
-    text-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-.links{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 5%;
-}
-.links a{
-    display:flex;
-    color: white;
-    text-decoration: none;
-    padding: 2%;
-    background-color: rgba(73, 73, 73, 0.685);
-    margin-top: 5%;
-    border-radius: 5px;
-    transition: 0.4s;
-    padding-bottom:3%;
-}
-a:hover{
-    transform: scale(1.02);
-    background-color: rgba(111, 111, 111, 0.855);
-    color: rgb(0, 0, 0);
-    transition-duration: 0.2s;
-}
-.sign{
-    opacity: 0.6;
-    font-family: "Brush Script MT";
-    text-align: center;
-    margin-top: 7%;
-    margin-bottom: 5%;
-}
 
 hr{
     width: 50%;
@@ -86,12 +49,7 @@ hr{
     transition:0.7s;
 }
 
-        .links a{
-            padding: 1%;
-            margin-top: 6%;
-            border-radius: 5px;
-            padding-bottom: 2%;
-        }
+       
         body{
             margin-top: 1%;
             font-size: larger;
@@ -134,9 +92,6 @@ hr{
         }
 }
 
-#sign{
-    height: 30px;
-}
 
   /* ---- particles.js container ---- */
   
@@ -167,33 +122,8 @@ hr{
   }
 
 
-.linkedin{
-    height: 55px;
-    padding-right: 33%;
-    margin-left: -41%;
-}
-.gmail{
-    height: 50px;
-    padding-right: 35%;
-    margin-left: -42%;
-}
-.github{
-        height: 57px;
-        padding-right: 35%;
-        margin-left: -42%;
-    }
-.logo:hover{
-    filter: invert(1);
-}
-.github:hover{
-    filter: invert(1);
-}
-.gmail:hover{
-    filter: invert(1);
-}
-.horizontal{
-    display: flex;
-}
+
+
 .name{
     margin-left: 6%;
     text-align: left;
@@ -211,47 +141,8 @@ hr{
 .connect{
     text-align: center;
 }
-.links{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin-left: 5%;
-}
-.links a{
-    font-size:40px;
-    color: white;
-    text-decoration: none;
-    padding: 4%;
-    background-color: rgba(27, 27, 27, 0.685);
-    margin-top: 5%;
-    border-radius: 9px;
-}
-a:hover{
-    transform: scale(1.02);
-    background-color: rgba(34, 34, 34,0.685);
-    transition-duration: 0.1s;
-}
-.sign{
-    opacity: 0.6;
-    font-family: Snell Roundhand;
-    text-align: center;
-    margin-top: 7%;
-    margin-bottom: 5%;
-}
 
-hr{
-    width: 70%;
-    margin-top: 7%;
-    margin-bottom: 5%;
-    color: rgb(27, 27, 27);
-    opacity: 0.7;
-}
 @media(min-width:1000px){
-    .links{
-        width: 40%;
-        margin-left: 30%;
-    }
     .logo{
         padding-top:7px;
         margin-bottom: -1%;
@@ -259,61 +150,13 @@ hr{
         padding-right: 0%;
         margin-left:5%;
     }
-    .gmail{
-        padding-top:7px;
-        margin-bottom: -1%;
-        height: 30px;
-        padding-right: 31%;
-        margin-left: -43%;
-    }
-    .github{
-        padding-top:7px;
-        margin-bottom: -1%;
-            height: 37px;
-            padding-right: 31%;
-            margin-left: -43%;
-        }
-    .linkedin{
-        padding-top:7px;
-        margin-bottom: -1%;
-            height: 37px;
-            padding-right: 31%;
-            margin-left: -43%;
-        }
-        .links a{
-            padding: 1%;
-            margin-top: 3%;
-            border-radius: 5px;
-            padding-bottom: 2%;
-            font-size:20px;
-        }
-        body{
-            margin-top: 1%;
-            font-size: large;
-        }
+    
         .face{
             max-height: 175px;
             padding: 0.4%;
             border-radius: 50%;
             margin-left: 30%;
             margin-top: 3%;
-        }
-        hr{
-            width: 40%;
-            margin-top: 3%;
-            margin-bottom: 2%;
-            color: rgb(27, 27, 27);
-            opacity: 0.7;
-        }
-        .sign{
-            margin-top: 2%;
-            margin-bottom: 3%;
-        }
-        .name{
-            margin-top: 5%;
-            margin-left: 6%;
-            text-align: left;
-            margin-right: 30%;
         }
 }
 
@@ -332,13 +175,7 @@ hr{
     height: 100%;
   }
 
-  .container{
-    position: absolute;
-  }
-
-#sign{
-height:60px;
-}
+ 
 
   .starlink{
     margin-top: 85%;
@@ -355,3 +192,201 @@ height:60px;
     rotate: 76deg;
     filter: invert(1);
   }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0f0f14;
+    color: rgba(255, 255, 255, 0.881);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.face {
+    height: 10vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 8vh;
+    width: 70vw;
+    margin-left: 15vw;
+    word-wrap: break-word;
+}
+
+.small {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.881);
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #3c425c;
+    margin-bottom: 2vh;
+}
+
+.links {
+    text-align: center;
+}
+
+.linka {
+    padding: 2vh;
+    width: 80vw;
+    position: absolute;
+    left: 0vw;
+    margin-top: -1.5vh;
+    background-color: #00000000;
+}
+
+.icon {
+    filter: brightness(0) invert(1);
+    width: 3.5vh;
+    position: absolute;
+    left: 1.5vh;
+    top: 2.25vh;
+    transition-duration: 0.2s;
+}
+
+.link {
+    backdrop-filter: blur(9px);
+    background-color: #2326345e;
+    border-radius: 5px;
+    margin: 2vh;
+    margin-left: 7vw;
+    padding: 2vh;
+    height: 4vh;
+    width: 80vw;
+    transition-duration: 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.link:hover .icon{
+    filter: brightness(1) invert(0);
+}
+
+.link::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    inset: 0 0 0 0;
+    background: #202230;
+    z-index: -1;
+    transition: transform .3s ease;
+}
+
+.link {
+    position: relative;
+}
+
+.link::before {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+.link:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.mail {
+    width: 3.5vh;
+    transition-duration: 0.2s;
+}
+.mail:hover{
+    transform: scale(1.1);
+}
+
+.end {
+    text-align: center;
+    margin-top: 4vh;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-bottom: 4vh;
+    font-size: 15px;
+}
+
+/*====================ANIMATION=================*/
+.element1{
+    margin-top: 1px;
+    height: 0px;
+    width: 0px;
+    background-color: #d78f00;
+    border-radius: 1px;
+    animation-duration: 15s;
+    position: fixed;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    z-index: -10;
+    box-shadow: 120px 80px 40px 20px #0ff;
+}
+#e2{
+    animation-duration: 20s;
+    background-color: #73daca;
+    animation-delay: 0.5s;
+    box-shadow: 120px 80px 40px 20px #d78f00;
+}
+
+@keyframes move {
+    0% {
+        top:0vh;
+        margin-left: 20vw;
+        opacity: 0;
+    }
+    16%{
+        top:52vh;
+        margin-left: 70vw;
+        opacity: 1;
+    }
+    32%{
+        top:80vh;
+        margin-left: 20vw;
+    }
+    48%{
+        top:75vh;
+        margin-left: 50vw;
+        opacity: 1;
+    }
+    66%{
+        top:20vh;
+        margin-left: 57vw;
+        opacity: 1;
+    }
+    83%{
+        top:80vh;
+        margin-left: -15vw;
+        opacity: 1;
+    }
+    100% {
+        top:0vh;
+        margin-left: 20vw;
+        opacity: 0;
+    }
+}
+
+@media (min-width: 800px){
+    .link{
+        width: 40vw;
+        margin-left: 30vw;
+    }
+    .linka{
+        width: 40vw;
+    }
+    hr{
+        width: 30vw;
+        margin-left: 10vw;
+    }
+}
