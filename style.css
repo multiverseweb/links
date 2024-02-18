@@ -4,12 +4,16 @@
 }
 
 body {
+    overflow-x: hidden;
     background-color: #0f0f14;
     color: rgba(255, 255, 255, 0.881);
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+::selection{
+    background-color: #b57800a3;
+    color:#0f0f14;
+}
 .face {
     height: 10vh;
     border-radius: 50%;
@@ -198,5 +202,16 @@ hr {
     hr{
         width: 30vw;
     }
+}
+
+.iss{
+    filter: invert(1);
+}
+marquee{
+    position: absolute;
+    top:40vh;
+    rotate: -30deg;
+    width: 105vw;
+    z-index: -1000;
 }
 
