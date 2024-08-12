@@ -26,7 +26,7 @@ particlesJS("particles-js", {
         }
       },
       "opacity": {
-        "value": 0.48927153781200905,
+        "value": 0.7,
         "random": false,
         "anim": {
           "enable": true,
@@ -54,7 +54,7 @@ particlesJS("particles-js", {
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 1,
         "direction": "none",
         "random": true,
         "straight": false,
@@ -70,13 +70,13 @@ particlesJS("particles-js", {
     "interactivity": {
       "detect_on": "canvas",
       "events": {
-        "onhover": {
+        "hover": {
           "enable": true,
           "mode": "bubble"
         },
-        "onclick": {
+        "hover": {
           "enable": true,
-          "mode": "push"
+          "mode": "bubble"
         },
         "resize": true
       },
